@@ -1,0 +1,17 @@
+
+
+  array_initial = Array.new(final_number) {|i| (i+1).to_i}
+
+
+  def is_multiple_of_3_or_5?(n=10)
+
+    array_multiple_of_3_or_5 = []
+  
+    n.times do |i|
+      if i % 3 == 0 || i % 5 == 0
+        array_multiple_of_3_or_5 << i
+      end
+    end
+    puts array_multiple_of_3_or_5
+   
+  end
